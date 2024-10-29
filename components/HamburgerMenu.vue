@@ -5,7 +5,7 @@
     <div id="backdrop"></div>
     <div id="sidebar">
       <!-- <Icon @click="toggleSidebar = false" name="ic:round-close" /> -->
-      <ul>
+      <ul style="padding: 2rem; display: flex; flex-direction: column; gap: 1rem;">
         <li @click="setParam('mais-informacoes'); toggleSidebar = false">Mais informações</li>
         <li @click="setParam('nossos-pilares'); toggleSidebar = false">Nossos pilares</li>
       </ul>
